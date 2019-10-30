@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import Link  from 'react-router-dom';
 import axios from 'axios';
 
@@ -55,15 +54,6 @@ export default class ListProducts extends Component {
                         { this.productList() }
                     </tbody>
                 </table>
-=======
-
-export default class ListProducts extends Component {
-
-    render(){
-        return(
-            <div>
-                TODO: Show all products
->>>>>>> master
             </div>
         )
     }
