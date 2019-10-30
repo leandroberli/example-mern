@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import Link  from 'react-router-dom';
 import axios from 'axios';
 
@@ -56,6 +57,15 @@ export default class ListUsers extends Component {
                         { this.userList() }
                     </tbody>
                 </table>
+=======
+
+export default class ListUsers extends Component {
+
+    render(){
+        return(
+            <div>
+                TODO: Show all users
+>>>>>>> master
             </div>
         )
     }

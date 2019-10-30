@@ -57,7 +57,11 @@ export default class CreateUser extends Component {
         axios.post('http://localhost:5000/users/add', user)
             .then(res => console.log(res.data));
         
+<<<<<<< HEAD
         window.location = "/users";
+=======
+        window.location = "/";
+>>>>>>> master
     }
 
     render(){
